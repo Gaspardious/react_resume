@@ -1,0 +1,37 @@
+
+
+#btn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+
+
+.buttonclass {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgreen;
+ }
+
+.buttonclass2 {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightcoral;
+ }
+
+
