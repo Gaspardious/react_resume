@@ -5,6 +5,7 @@ export default function Card() {
         <div className="card">
             <img src="./src/sweaters/rosa-fram.jpeg" alt="pink sweater" className="sweaters" />
             <div className="product__info">
+                <h1 className="product__company">Sticky Sweater</h1>
                 <h1 className="product__name">Mr.Pink</h1>
                 <h2 className="product__price">249 SEK</h2>
                     <div className="product__size">
