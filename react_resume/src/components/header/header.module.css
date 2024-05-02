@@ -1,0 +1,35 @@
+
+header {
+    background: linear-gradient(135deg, var(--main-color) 85%, white);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;;
+    color: white;
+    font-family: var(--title-font);
+    font-weight: 600;
+}
+
+.logo {
+    width: 80px;
+}
+
+@media screen and (max-width: 500px) {
+    nav > ul > li > a {
+        font-size: 12px;
+        
+    }
+
+
+  }
+
