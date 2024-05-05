@@ -24,7 +24,7 @@ const Home = () => {
       </section>
 
 
-      <img className={styles.hero_img} src="/public/images/dejan.png" alt="" />
+      <img className={styles.hero_img} src="/public/images/Dejan.png" alt="" />
 
     </div>
   )
