@@ -23,3 +23,54 @@
     color: var(--main-color);
     font-family: var(--text-font);
 }
+
+.tech {
+    margin-top: 40px;
+    font-family: "Fjalla One";
+    font-size: 15px;
+    display: flex;
+    gap: 1rem;
+}
+
+.techlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.techstack {
+    width: 250px;
+}
+
+.github {
+width: 45px;
+margin: 10px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0px 0px 0px 0px;       
+        margin: 0px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--main-color);
+        font-family: var(--title-font);
+    }
+    
+    .hero_img {
+        width: 100%;
+    }
+
+    .tech {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

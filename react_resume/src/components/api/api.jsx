@@ -1,12 +1,9 @@
 import { useState, useEffect } from 'react'
 import styles from './api.module.css'
 
-
-const Api = () => {
+const Api = ({repos}) => {
 const url = 'https://api.github.com/users/gaspardious/repos'
 const [data, setData] = useState([])
-const repoId = ['api-flickr-project', 'galaxy_project' ]
-
 
 useEffect(() => {
     fetch(url)
@@ -20,15 +17,18 @@ useEffect(() => {
 
   return (
     <section>
-        <h2>My GitHub</h2> 
-            {data.filter(repo => repoId.includes(repo.name)).map((repo) => (
-                <article key={repo.id}>
-                <a href={repo.html_url} target='_blank'>
-                    <h3>{repo.name}</h3>
-                </a>
-                    <p>{repo.description}</p>
-                </article>
-            ))}
+      <h2>REPOS</h2>
+      {data.filter((repo) => repos.some((r) => r.name === repo.name))
+        .map((repo) => (
+          <article key={repo.id}>
+            <h3>{repo.name}</h3>
+            <p>{repo.description}</p>
+            <button className={styles.button} onClick={() => window.open(repo.html_url, '_blank')}>
+              <h4>SHOW REPO</h4>
+            </button>
+            {repos.map((r) => r.name === repo.name && <img src={r.imageUrl} alt={`${repo.name} Image`} className={styles.repo_img} />)}
+          </article>
+        ))}
     </section>
   );
 };
