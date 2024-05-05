@@ -1,9 +1,12 @@
 
-import React from 'react'
+
+import Api from '../../components/api/api'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div>
+      <Api /> 
+    </div>
   )
 }
 
