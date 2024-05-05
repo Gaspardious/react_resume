@@ -5,9 +5,9 @@ import styles from './header.module.css'
 export default function Header (){
     return (
         <>
-            <header>
+            <header className={styles.header}>
                     <nav>
-                        <ul>
+                        <ul className={styles.ul}>
                             <li><Link to="/">HOME</Link></li>
                             <li><Link to="/portfolio">PORTFOLIO</Link></li>
                             <li><Link to="/about">ABOUT</Link></li>
