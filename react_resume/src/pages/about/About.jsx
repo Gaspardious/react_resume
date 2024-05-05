@@ -6,7 +6,7 @@ const About = () => {
     <>
         <div className={styles.about}>
             <section className={styles.about__section}>
-                <h2 className={styles.about__title}>ABOUT</h2>
+                <h2 className={styles.about__title}>ABOooooUT</h2>
                   <p className={styles.about__desc}> Hello friend! My name is Dejan. Originally from Bosnia, I now call Gothenburg, Sweden, my home.</p>   
                   <p className={styles.about__desc}> Life's a blend of simplicity and complexity for me. Whether I'm trekking through nature, 
                       decoding the stock market, hitting the gym, or diving into the world of Xbox gaming and coding, I find joy in the mix.</p>   
