@@ -29,6 +29,7 @@
     font-family: "Fjalla One";
     font-size: 15px;
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 

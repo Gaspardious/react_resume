@@ -5,9 +5,9 @@ import styles from './footer.module.css'
 const Footer = () => {
   return (
     <>
-    <footer>
+    <footer className={styles.footer}>
         <div>
-        <p>© Made by Dejan Gaspar - 2024</p>
+        <p className={styles.paragraph}> © Made by Dejan Gaspar - 2024</p>
         </div>
        
     </footer>
