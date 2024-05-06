@@ -19,6 +19,6 @@
 }
 
 .contact > .contact__section > .contact__title, .contact__desc {
-color: white;
-padding: 15px;
+    color: var(--main-text-color);
+    padding: 15px;
 }

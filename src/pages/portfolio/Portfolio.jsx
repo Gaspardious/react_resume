@@ -36,9 +36,6 @@ const Portfolio = () => {
         <Api repos={repos} /> 
 
       </section>
-
-
-      
     </div>
   )
 }

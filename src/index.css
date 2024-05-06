@@ -8,11 +8,17 @@
 }
 
 :root {
-   --main-color: rgba(126, 126, 126, 0.757);
+   --main-color: rgba(220, 220, 220, 0.757);
+   --main-text-color: #000000;
    --main-font: 'Nunito Sans', sans-serif;
    --title-font: 'Fjalla One', sans-serif;
-}
 
+} 
+
+[data-theme="dark"] {
+  --main-color: #000000bd;
+  --main-text-color: rgb(70, 192, 0);
+}
 
 .fjalla-one-regular {
     font-family: "Fjalla One", sans-serif;

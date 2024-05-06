@@ -1,6 +1,6 @@
 
 .section_api {
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color: var(--main-color);
     margin: 30px;
     min-height: 80vh;
     border-radius: 20px;
@@ -14,7 +14,7 @@ article {
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--main-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,7 +27,7 @@ article {
 
     @media only screen and (max-width: 800px) {
         .section_api {
-            background-color:rgba(0, 0, 0, 0.1);
+            background-color: var(--main-color);
             margin: 15px;
             min-height: 80vh;
             border-radius: 20px;

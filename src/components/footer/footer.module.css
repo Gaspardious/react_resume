@@ -2,7 +2,7 @@
 
 
 .footer {
-    background: linear-gradient(135deg, var(--main-color) 85%, white);
+    background: linear-gradient(60deg, var(--main-color) 60%, var(--main-text-color));
     height: 100px;
     bottom: 0;
     display: flex;
@@ -12,6 +12,6 @@
 }
 
 .paragraph {
-    color: rgb(255, 255, 255);
+    color: var(--main-text-color);
     font-size: x-small;
 }

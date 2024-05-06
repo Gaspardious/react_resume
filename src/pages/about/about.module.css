@@ -12,18 +12,18 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, var(--main-color) 85%, white);
+    background: linear-gradient(135deg, var(--main-color) 85%, var(--main-text-color));
     border-radius: 30px;
     max-width: 500px;
 }
 
 .about__title {
     font-family: var(--title-font);
-    color: white;
+    color: var(--main-text-color);
 }
 
 .about__desc {
-color: white;
+color: var(--main-text-color);
 padding: 15px;
 font-family: var(--main-font);
 letter-spacing: -0.3px;
