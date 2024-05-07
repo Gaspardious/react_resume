@@ -17,7 +17,7 @@
   
   .theme-dark {
     --main-color: #000000bd;
-    --main-text-color: rgb(70, 192, 0);
+    --main-text-color: rgb(62, 169, 0);
     --main-font: 'Nunito Sans', sans-serif;
     --title-font: 'Fjalla One', sans-serif;
     --title-color: linear-gradient(45deg, #b21f1f, #37ff0f, #fdbb2d);

@@ -3,10 +3,10 @@
     background: linear-gradient(135deg, var(--main-color) 85%, var(--main-text-color));
     height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around   ;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 .title {
@@ -16,6 +16,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent; /* For WebKit browsers */
     color: transparent; /* Standard syntax; use this if the above isn't supported */
+    margin-bottom: 15px;
 }
 
 
@@ -102,8 +103,12 @@ a {
     .mobile_menu {
         display: block;
         width: 30px;
+        height: 30px;
+        fill: var(--main-text-color);
     }
-    
+
+
+
     nav {
         display: none;
     }

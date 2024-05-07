@@ -17,7 +17,7 @@ const Home = () => {
                 </ul>
             </div>
               <a href="https://github.com/Gaspardious" target="_blank">
-                <img src="images/github-142-svgrepo-com.svg" alt="github" className={styles.github} />
+              <img src="images/github-mark.png" alt="github" className={styles.github} />
               </a>
       </section>
         <img className={styles.hero_img} src="images/Dejan.png" alt="" />

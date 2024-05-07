@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './header.module.css';
 import ThemeToggler from '../themetoggler/Themetoggler';
 
+
 const Header = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -14,7 +15,7 @@ const Header = () => {
         <>
             <header className={styles.header}>
                 <ThemeToggler />
-                    <h2 className={styles.title} >GAŠPAR.</h2>
+                <li><Link to="/"><h2 className={styles.title} >GAŠPAR.</h2></Link></li>
                 <nav>
                     <ul className={styles.ul}>
                         <li><Link to="/">HOME</Link></li>
@@ -23,7 +24,9 @@ const Header = () => {
                         <li><Link to="/contact">CONTACT</Link></li>
                     </ul>
                 </nav>
-                <img className={styles.mobile_menu} src="images/more.png" alt="Menu Icon" onClick={toggleMenu}/>
+                    <svg class="custom-svg" onClick={toggleMenu} className={styles.mobile_menu} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px">
+                        <path d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"/>
+                    </svg>
             </header>
 
 {/* mobile menu */}

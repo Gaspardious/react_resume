@@ -21,12 +21,11 @@
 
 .text {
     font-size: 1rem;
-    color: var(--main-text-color);
+    color: black;
     font-family: var(--text-font);
 }
 
 .tech {
-    font-family: "Fjalla One";
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -42,14 +41,18 @@
 .techstack {
     width: 170px;
 }
+
 .tech_stack {
     color: var(--main-text-color);
+    font-family: var(--title-font);
+    font-weight: 100;
 }
 
 .github {
 width: 45px;
-margin: 10px 0px;
+height: 45px;
 }
+
 
 @media only screen and (max-width: 800px) {
     .hero {
@@ -75,7 +78,7 @@ margin: 10px 0px;
     }
 
     .text {
-            width: 90%;
+            width: 88%;
             margin: 0 auto;
         
     }

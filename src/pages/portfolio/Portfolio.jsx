@@ -30,7 +30,7 @@ const Portfolio = () => {
 
       <section className={styles.section_api}>
         <a href="https://github.com/Gaspardious" target="_blank">
-        <img src="images/github-142-svgrepo-com.svg" alt="github" className={styles.github} />
+        <img src="images/github-mark.png" alt="github" className={styles.github} />
         </a>
         
         <Api repos={repos} /> 

@@ -1,22 +1,4 @@
 
-button {
-    width: 100px;
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    margin: auto 0;
-}
-
-button {
-    width: 100px;
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    margin: auto 0;
-}
-
 label {
     width: 55px;   
     height: 30px;
@@ -27,6 +9,7 @@ label {
     box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 15px;
 }
 
 label:after {
@@ -49,7 +32,7 @@ input {
 }
 
 input:checked + label {
-    background: #242424;
+    background: #00cf1c;
 }
 
 input:checked + label:after {
