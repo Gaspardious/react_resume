@@ -1,7 +1,8 @@
 
 import { Link } from 'react-router-dom'
 import styles from './header.module.css'
-import DarkmodeComponent from '../darkmode/DarkmodeComponent.jsx'
+import ThemeToggler from '../themetoggler/Themetoggler'
+
 
 
 
@@ -11,7 +12,7 @@ export default function Header (){
         <>
   
             <header className={styles.header}>
-            <DarkmodeComponent />
+<ThemeToggler   />
             <img className={styles.logo_img} src="../../images/file.png" alt="" />
                     <nav>
                         <ul className={styles.ul}>
