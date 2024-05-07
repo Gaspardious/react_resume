@@ -20,5 +20,8 @@
 
 .contact > .contact__section > .contact__title, .contact__desc {
     color: var(--main-text-color);
-    padding: 15px;
+    padding: 6px;
+}
+.contact__title {
+    font-family: var(--title-font);
 }
