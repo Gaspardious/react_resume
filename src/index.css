@@ -12,6 +12,7 @@
   --main-text-color: #a97f00;
   --main-font: 'Nunito Sans', sans-serif;
   --title-font: 'Fjalla One', sans-serif;
+  --title-color: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
   }
   
   .theme-dark {
@@ -19,6 +20,7 @@
     --main-text-color: rgb(70, 192, 0);
     --main-font: 'Nunito Sans', sans-serif;
     --title-font: 'Fjalla One', sans-serif;
+    --title-color: linear-gradient(45deg, #b21f1f, #37ff0f, #fdbb2d);
   }
 
 

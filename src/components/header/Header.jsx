@@ -14,7 +14,7 @@ const Header = () => {
         <>
             <header className={styles.header}>
                 <ThemeToggler />
-                <img className={styles.logo_img} src="../../images/file.png" alt="" />
+                    <h2 className={styles.title} >GAŠPAR.</h2>
                 <nav>
                     <ul className={styles.ul}>
                         <li><Link to="/">HOME</Link></li>
@@ -23,14 +23,8 @@ const Header = () => {
                         <li><Link to="/contact">CONTACT</Link></li>
                     </ul>
                 </nav>
-                <img 
-                    className={styles.mobile_menu} 
-                    src="images/more.png" 
-                    alt="Menu Icon" 
-                    onClick={toggleMenu}
-                />
+                <img className={styles.mobile_menu} src="images/more.png" alt="Menu Icon" onClick={toggleMenu}/>
             </header>
-¨
 
 {/* mobile menu */}
 
