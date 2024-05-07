@@ -11,8 +11,8 @@ const ThemeToggler = () => {
       return (
         <>
           <div>
-            <input type="checkbox" id="darkModeToggle" className="toggle-checkbox" onClick={() => dispatch(toggleTheme())}/>
-            <label htmlFor="darkModeToggle" className="toggle-label"></label>
+            <input type="checkbox" id="darkModeToggle" className={styles.input} onClick={() => dispatch(toggleTheme())}/>
+            <label htmlFor="darkModeToggle" className={styles.label}></label>
           </div>
         </>
       )
