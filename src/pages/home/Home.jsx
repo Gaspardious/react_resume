@@ -20,7 +20,11 @@ const Home = () => {
               <img src="images/github-mark.png" alt="github" className={styles.github} />
               </a>
       </section>
-        <img className={styles.hero_img} src="images/Dejan.png" alt="" />
+
+
+        <img className={styles.hero_img} src="images/Dejan.png" alt="Picture of Dejan - the dude who built this site..." />
+
+
     </div>
   )
 }
