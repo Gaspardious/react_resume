@@ -7,8 +7,6 @@
     box-sizing: border-box;
 }
 
-
-
 .theme-light {
   --main-color: #F0F0E9;
   --main-text-color: #a97f00;
@@ -19,21 +17,10 @@
   .theme-dark {
     --main-color: #000000bd;
     --main-text-color: rgb(70, 192, 0);
+    --main-font: 'Nunito Sans', sans-serif;
+    --title-font: 'Fjalla One', sans-serif;
   }
 
-
-:root {
-   --main-color: #F0F0E9;
-   --main-text-color: #a97f00;
-   --main-font: 'Nunito Sans', sans-serif;
-   --title-font: 'Fjalla One', sans-serif;
-
-} 
-
-/* [data-theme="dark"] {
-  --main-color: #000000bd;
-  --main-text-color: rgb(70, 192, 0);
-} */
 
 .fjalla-one-regular {
     font-family: "Fjalla One", sans-serif;

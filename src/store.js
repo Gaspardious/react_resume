@@ -19,7 +19,6 @@ reducers: {
 });
 
 
-
 export const Store  = configureStore ( {
     reducer: {
         theme: themeSlice.reducer

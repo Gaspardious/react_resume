@@ -27,14 +27,76 @@ a {
     width: 80px;
 }
 
+.mobile_menu {
+    display: none
+}
+
+/************** MOBILE MENU **************/
+
+.mobileNav {
+    position: fixed;
+    width: 0;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: white; 
+    z-index: 101; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    transition: width 0.3s ease; 
+}
+
+.mobileNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.mobileNav ul li {
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.mobileNav ul li a {
+    color: black; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.mobileNav ul li a:hover {
+    color: #ccc;
+}
+
+.overlay {
+    position: fixed;
+    width: 0;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 100; 
+    transition: width 0.3s ease; 
+}
+
+.header {
+    z-index: 102; 
+}
 
 
 @media screen and (max-width: 500px) {
     nav > ul > li > a {
         font-size: 12px;
-        
     }
 
+    .mobile_menu {
+        display: block;
+        width: 30px;
+    }
+    
+    nav {
+        display: none;
+    }
 
   }
-
