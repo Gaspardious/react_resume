@@ -21,7 +21,6 @@ const Home = () => {
               </a>
       </section>
 
-
         <img className={styles.hero_img} src="images/Dejan.png" alt="Picture of Dejan - the dude who built this site..." />
 
 

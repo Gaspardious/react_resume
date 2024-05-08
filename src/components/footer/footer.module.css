@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
     border: none;
+    position: relative;
+    width: 100%;
 }
 
 .paragraph {
