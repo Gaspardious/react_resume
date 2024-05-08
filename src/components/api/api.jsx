@@ -16,20 +16,21 @@ useEffect(() => {
   }, []);
 
   return (
-    <section>
-      <h2 className={styles.title}>REPOS</h2>
+    <div className={styles.div}>
       {data.filter((repo) => repos.some((r) => r.name === repo.name))
         .map((repo) => (
-          <article key={repo.id}>
-            <h3>{repo.name}</h3>
-            <p>{repo.description}</p>
-            <button className={styles.button} onClick={() => window.open(repo.html_url, '_blank')}>
-              SHOW REPO
-            </button>
-            {repos.map((r) => r.name === repo.name && <img src={r.imageUrl} alt={`${repo.name} Image`} className={styles.repo_img} />)}
-          </article>
+          <section className={styles.repo_section}>
+            <article className={styles.repo_card} key={repo.id}>
+              <h3>{repo.name}</h3>
+              <p>{repo.description}</p>
+              <button className={styles.button} onClick={() => window.open(repo.html_url, '_blank')}>
+                SHOW REPO
+              </button>
+              {repos.map((r) => r.name === repo.name && <img src={r.imageUrl} alt={`${repo.name} Image`} className={styles.repo_img} />)}
+            </article>
+          </section>
         ))}
-    </section>
+    </div>
   );
 };
      

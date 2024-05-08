@@ -1,5 +1,3 @@
-
-
 import styles from './portfolio.module.css'
 import Api from '../../components/api/api'
 
@@ -27,15 +25,15 @@ const Portfolio = () => {
   
   return (
     <div>
-
-      <section className={styles.section_api}>
-        <a href="https://github.com/Gaspardious" target="_blank">
-        <img src="images/github-mark.png" alt="github" className={styles.github} />
-        </a>
-        
+        <div className={styles.portfolio}>
+            <section className={styles.section_github}>
+              <h2 className={styles.title}>REPOS</h2>
+              <a href="https://github.com/Gaspardious" target="_blank">
+              <img src="images/github-mark.png" alt="github" className={styles.github} />
+              </a>
+            </section>
+          </div>
         <Api repos={repos} /> 
-
-      </section>
     </div>
   )
 }

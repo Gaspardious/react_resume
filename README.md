@@ -11,3 +11,5 @@ This React component, Api, fetches specific repository data from the GitHub API 
 - Router is setup in the rounter.jsx. 
 
 - The site is built with css modules. 
+
+- Props is being used in API.jsx and portfolio.jsx. We use an array with objects in portfolio to get specifik repos from api.jsx with the help of props. 

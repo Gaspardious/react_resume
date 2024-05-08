@@ -3,19 +3,19 @@
     background: linear-gradient(135deg, var(--main-color) 85%, var(--main-text-color));
     height: 80px;
     display: flex;
-    justify-content: space-around   ;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
-    padding: 0;    
+    padding: 0;   
 }
 
 .title {
     font-size: 45px;
-    background: var(--title-color); /* Define your gradient colors */
+    background: var(--title-color); 
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent; /* For WebKit browsers */
-    color: transparent; /* Standard syntax; use this if the above isn't supported */
+    -webkit-text-fill-color: transparent;
+    color: transparent; 
     margin-bottom: 15px;
 }
 
@@ -30,7 +30,8 @@ a {
     text-decoration: none;;
     color: var(--main-text-color);
     font-family: var(--title-font);
-    font-weight: 600;
+    font-weight: 100;
+    font-size: 17px;
 }
 
 .logo_img {

@@ -21,8 +21,10 @@ const Home = () => {
               </a>
       </section>
 
-        <img className={styles.hero_img} src="images/Dejan.png" alt="Picture of Dejan - the dude who built this site..." />
-
+        <figure className={styles.hero_figure}>
+          <img className={styles.hero_img} src="images/Dejan.png" alt="Picture of Dejan - the dude who built this site..." />
+          <figcaption>Yours truly, in Sarek (Sweden) during the summer of 2021...</figcaption>
+        </figure>
 
     </div>
   )
