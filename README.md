@@ -13,3 +13,6 @@ This React component, Api, fetches specific repository data from the GitHub API 
 - The site is built with css modules. 
 
 - Props is being used in API.jsx and portfolio.jsx. We use an array with objects in portfolio to get specifik repos from api.jsx with the help of props. 
+
+- The site also has a form in Contact which uses useContext. The form using useContext means you could extend the form's functionality (like adding new fields or validation rules) or reuse the form logic in different parts of the website with minimal changes to the components themselves. This is because all form-related data and functions are accessed through the context and not tied to the component itself.
+
