@@ -10,34 +10,34 @@ const ContactForm = () => {
   return (
     <>
     <div className={styles.contact} >
-     <h2>Contact</h2>
       <form className={styles.contact__section} action="">
-      <label className={styles.contact_label} htmlFor="name">Name:</label>
-      <input 
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-      />
+        <h2>CONTACT</h2>
+          <label className={styles.contact_label} htmlFor="name">Name:</label>
+          <input 
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleChange}
+          />
 
-      <label className={styles.contact_label} htmlFor="email">Email:</label>
-              <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-              />
+          <label className={styles.contact_label} htmlFor="email">Email:</label>
+                  <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                  />
 
-              <label className={styles.contact_label} htmlFor="message">Message:</label>
-              <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  value={formData.message}
-                  onChange={handleChange}
-              ></textarea>
+                  <label className={styles.contact_label} htmlFor="message">Message:</label>
+                  <textarea
+                      id="message"
+                      name="message"
+                      rows="4"
+                      value={formData.message}
+                      onChange={handleChange}
+                  ></textarea>
 
               <button type="submit">Send</button>
            
