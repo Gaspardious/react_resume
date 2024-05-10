@@ -6,7 +6,7 @@
 
 .section_github {
     display: flex;
-    background-color: var(--main-color);
+    background: linear-gradient(60deg, var(--main-color) 35%, var(--main-text-color));
     border-radius: 10px;
     padding: 20px;
     margin: 30px;

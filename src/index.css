@@ -15,6 +15,7 @@
   --title-font: 'Fjalla One', sans-serif;
   --title-color: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
   --main-bg-color : #f4f4f4;  
+  --footer-color: #000000;
 }
   
   .theme-dark {
@@ -24,6 +25,7 @@
     --title-font: 'Fjalla One', sans-serif;
     --title-color: linear-gradient(45deg, #b21f1f, #37ff0f, #fdbb2d);
     --main-bg-color : #eaffe0;  
+   --footer-color: #000000;
   }
 
 
