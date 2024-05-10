@@ -14,6 +14,7 @@ const ContactForm = () => {
         <h2>CONTACT</h2>
           <label className={styles.contact_label} htmlFor="name">Name:</label>
           <input 
+              className={styles.contact_input}
               type="text"
               id="name"
               name="name"
@@ -23,6 +24,7 @@ const ContactForm = () => {
 
           <label className={styles.contact_label} htmlFor="email">Email:</label>
                   <input
+                      className={styles.contact_input}
                       type="email"
                       id="email"
                       name="email"
@@ -32,6 +34,7 @@ const ContactForm = () => {
 
                   <label className={styles.contact_label} htmlFor="message">Message:</label>
                   <textarea
+                      className={styles.contact_input}
                       id="message"
                       name="message"
                       rows="4"

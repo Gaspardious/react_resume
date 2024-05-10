@@ -50,7 +50,7 @@ a {
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: var(--main-color); 
+    background: linear-gradient(160deg, var(--main-color) 5%, var(--main-text-color));
     z-index: 101; 
     display: flex;
     justify-content: center;
@@ -71,9 +71,10 @@ a {
 }
 
 .mobileNav ul li a {
-    color: var(--main-text-color); 
+    color: var(--main-color); 
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 50px;
 }
 
 .mobileNav ul li a:hover {
