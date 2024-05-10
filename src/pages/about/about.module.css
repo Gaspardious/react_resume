@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 750px;
+    background: var(--main-bg-color);
 }
 
 .about__section {
@@ -12,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, var(--main-color) 85%, var(--main-text-color));
+    background: linear-gradient(135deg, var(--main-color) 60%, var(--main-text-color));
     border-radius: 30px;
     max-width: 500px;
     padding: 25px;

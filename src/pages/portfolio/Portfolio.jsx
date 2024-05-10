@@ -4,27 +4,32 @@ import Api from '../../components/api/api'
 const Portfolio = () => {
   const repos = [
     {
+      name: 'Dejan-Gaspar_FE23_individuell-examination',
+      imageUrl: '/images/individuell_uppgift.png',
+    },
+    {
       name: 'api-flickr-project',
-      imageUrl: '/images/Galaxy_img2.png',
+      imageUrl: '/images/api_flickr_project.png',
     },
     {
       name: 'galaxy_project',
-      imageUrl: '/images/Galaxy_img2.png',
+      imageUrl: '/images/Galaxy_img.png',
     },
     {
-      name: 'Basketball_Scoreboard',
-      imageUrl: '/images/HeroPage.png',
+      name: 'webshop-react',
+      imageUrl: '/images/Productpage.png',
     },
     {
-      name: 'Darkmode-and-CSS-flex',
-      imageUrl: '/images/HeroPage.png',
+      name: 'Portfolio-Site',
+      imageUrl: '/images/portfolio.png',
     },
+
 
   ];
   
   
   return (
-    <div>
+    <div className={styles.container}>
         <div className={styles.portfolio}>
             <section className={styles.section_github}>
               <h2 className={styles.title}>REPOS</h2>

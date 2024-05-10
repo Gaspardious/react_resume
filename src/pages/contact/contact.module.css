@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     min-height: 750px;
+    background: var(--main-bg-color);
 }
 
 .contact__section {
@@ -14,7 +15,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    background: linear-gradient(135deg, var(--main-color) 85%, var(--main-text-color));
+    background: linear-gradient(135deg, var(--main-color) 60%, var(--main-text-color));
     border-radius: 30px;
     min-width: 400px;
     min-height: 500px ;
